@@ -6,7 +6,7 @@
 # end                              # end
 
 def can_be_instantiated_and_then_saved
-  movie = Movie.new(attributes)
+  movie = Movie.new
   movie.save
 end
 
