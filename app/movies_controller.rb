@@ -6,9 +6,7 @@
 # end                              # end
 
 def can_be_instantiated_and_then_saved
-  movie = Movie.new
-  movie.title = "The Matrix"
-  movie.save
+  movie = Movie.create
 end
 
 def can_be_created_with_a_hash_of_attributes
